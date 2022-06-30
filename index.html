@@ -4,19 +4,54 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template Project</title>
+  <title>Bookmark</title>
   <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
-  <!-- <link rel="stylesheet" href="./css/main.css"> -->
-  <link rel="stylesheet" href="./css/main.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
 </head>
 <body>
-
-
 
   <!-- SITE HEADER START -->
 
   <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a class="logo" href="./index.html">
+          <img class="logo__img" src="./images/logo.svg" 
+             width="149" height="25"
+             alt="bookmark site's logo">
+        </a>
 
+        <div class="header-desc-box">
+          <nav class="site-nav">
+            <ul class="site-nav__list">
+              <li class="site-nav__item">
+                <a class="site-nav__link site-nav__link--features" href="#">
+                  FEATURES
+                </a>
+              </li>
+  
+              <li class="site-nav__item">
+                <a class="site-nav__link" href="#">
+                  PRICING
+                </a>
+              </li>
+  
+              <li class="site-nav__item">
+                <a class="site-nav__link" href="#">
+                  CONTACT
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <a class="header-link" href="#">
+            LOGIN
+          </a>
+        </div>
+        
+      </div>
+    </div>
   </header>
 
   <!-- SITE HEADER END -->
@@ -25,8 +60,96 @@
   <!-- SITE MAIN START -->
   <main class="site-main">
 
-    <section class="hero">
-      
+    <section class="hero hero-section">
+      <div class="container">
+        <div class="hero-section__box">
+          <h1 class="hero-section__title">
+            A Simple Bookmark Manager
+          </h1>
+
+          <p class="hero-section__text">
+            A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.
+          </p>
+
+          <a class="hero-section__link" href="#">
+            Get it on Chrome
+          </a>
+
+          <a class="hero-section__link hero-section__link--chrome" href="#">
+            Get it on Chrome
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="download-section download">
+      <div class="container">
+        <div class="main-section-box">
+          <h2 class="main-title">
+            Download the extension
+          </h2>
+
+          <p class="main-text">
+            We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.
+          </p>
+        </div>
+
+        <ul class="download__list">
+          <li class="download__item">
+            <img class="download__img" src="./images/chrome.svg" 
+              width="102" height="100"
+              alt="chome site logo with circle shape red green yellow blue and white">
+
+              <h3 class="download__heading">
+                Add to Chrome
+              </h3>
+
+              <p class="download__desc">
+                Minimum version 62
+              </p>
+
+              <a class="download__link" href="#">
+                Add & Install Extension
+              </a>
+          </li>
+
+          <li class="download__item download__item--firefox">
+            <img class="download__img" src="./images/fire-fox.svg" 
+              width="105" height="100"
+              alt="chome site logo with circle shape red green yellow blue and white">
+
+              <h3 class="download__heading">
+                Add to Firefox
+              </h3>
+
+              <p class="download__desc">
+                Minimum version 55
+              </p>
+
+              <a class="download__link" href="#">
+                Add & Install Extension
+              </a>
+          </li>
+
+          <li class="download__item download__item--opera">
+            <img class="download__img" src="./images/opera.svg" 
+              width="96" height="100"
+              alt="chome site logo with circle shape red green yellow blue and white">
+
+              <h3 class="download__heading">
+                Add to Opera
+              </h3>
+
+              <p class="download__desc">
+                Minimum version 46
+              </p>
+
+              <a class="download__link" href="#">
+                Add & Install Extension
+              </a>
+          </li>
+        </ul>
+      </div>
     </section>
 
   </main>
