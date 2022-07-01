@@ -70,6 +70,7 @@ body{
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
 }
 
@@ -158,7 +159,7 @@ ul {
   background-image: url("../images/hero-bgi.svg");
   background-size: 1155px 486px;
   background-repeat: no-repeat;
-  background-position: calc(50% + 622px) calc(50% - 23px);
+  background-position: calc(50% + 604px) calc(50% - 23px);
 }
 
 .hero-section__box{
@@ -187,7 +188,7 @@ ul {
 
 .hero-section__link{
   display: inline-block;
-  padding: 13px 22px;
+  padding: 8px 22px;
   font-weight: var(--font-weight-medium);
   font-size: 14px;
   line-height: 28px;
@@ -319,7 +320,7 @@ ul {
 
 .download__link{
   display: inline-block;
-  padding: 13px 33px;
+  padding: 7px 33px;
   font-weight: var(--font-weight-medium);
   font-size: 14px;
   line-height: 28px;
