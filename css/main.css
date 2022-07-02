@@ -258,14 +258,20 @@ ol {
   color: var(--main-text-color);
   border-bottom: 4px solid transparent;
   text-align: center;
+  transition: all 0.3s ease;
 }
 
 .features__link:hover{
   color: #FA5959;
+  transition: all 0.3s ease;
 }
 
 .features__link:active{
   color: var(--main-text-color);
+  border-color: #FA5959;
+}
+
+.features__link--simple{
   border-color: #FA5959;
 }
 
