@@ -97,42 +97,86 @@
         </div>
 
         <ul class="features__list">
-          <li class="features__item">
-            <a class="features__link features__link--simple" href="#">
+          <li class="features__item features__item--active">
+            <a class="features__link features__link--simple" href="#bookmark">
               Simple Bookmarking
             </a>
           </li>
 
           <li class="features__item">
-            <a class="features__link features__link--speedy" href="#">
+            <a class="features__link features__link--speedy" href="#intelligent">
               Speedy Searching
             </a>
           </li>
 
           <li class="features__item">
-            <a class="features__link features__link--easy" href="#">
+            <a class="features__link features__link--easy" href="#share">
               Easy Sharing
             </a>
           </li>
         </ul>
 
-        <div class="features__box">
-          <div class="features__info-box">
-            <h3 class="features__title">
-              Bookmark in one click
-            </h3>
+        
+        <div class="features__carusel-box">
+          <div class="features-wrapper features-wrapper--active" id="bookmark">
+            <div class="features__box features__box--active" >
 
-            <p class="features__text">
-              Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control
-              over how you manage your favourite sites.
-            </p>
-
-            <a class="more-info-link" href="#">
-              More Info
-            </a>
+              <div class="features__info-box">
+                <h3 class="features__title">
+                  Bookmark in one click
+                </h3>
+    
+                <p class="features__text">
+                  Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control
+                  over how you manage your favourite sites.
+                </p>
+    
+                <a class="more-info-link" href="#">
+                  More Info
+                </a>
+              </div>
+            </div>
           </div>
+          
+          <div class="features-wrapper" id="intelligent">
+            <div class="features__box features__box--intelligent" >
+              <div class="features__info-box">
+                <h3 class="features__title">
+                  Intelligent search
+                </h3>
+    
+                <p class="features__text">
+                  Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.
+                </p>
+    
+                <a class="more-info-link" href="#">
+                  More Info
+                </a>
+              </div>
+            </div>
+          </div>
+          
+  
+          <div class="features-wrapper" id="share">
+            <div class="features__box features__box--share" >
+              <div class="features__info-box">
+                <h3 class="features__title">
+                  Share your bookmarks
+                </h3>
+    
+                <p class="features__text">
+                  Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.
+                </p>
+    
+                <a class="more-info-link" href="#">
+                  More Info
+                </a>
+              </div>
+            </div>
+          </div>
+          
         </div>
-
+        
       </div>
     </section>
 
@@ -360,6 +404,7 @@
   </footer>
   <!-- SITE FOOTER END -->
 
+  <script src="js/main.js"></script>
 </body>
 
 </html>
